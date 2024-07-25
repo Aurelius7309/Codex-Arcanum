@@ -924,7 +924,7 @@ function Game:init_item_prototypes()
   G.P_CENTER_POOLS.Alchemical = {}
   G.localization.descriptions.Alchemical = {}
 
-  for _, booster in pairs(SMODS.Boosters) do
+  for _, booster in pairs(SMODS.CABoosters) do
     booster:register()
   end
 
