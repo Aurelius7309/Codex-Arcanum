@@ -932,7 +932,7 @@ function Game:init_item_prototypes()
     alchemical:register()
   end
 
-  for _, tag in pairs(SMODS.Tags) do
+  for _, tag in pairs(SMODS.CATags) do
     tag:register()
   end
   SMODS.LOAD_LOC()
